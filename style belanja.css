@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Bagian Belanja */
+#belanja {
+    background-color: #f8f4f0;
+    color: #4b2e2b;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#belanja .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#belanja h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #6b4e3d;
+}
+
+#belanja p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    color: #4b2e2b;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.product {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: left;
+    max-width: 300px;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.product h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.product p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #6b4e3d;
+}
+
+.product .price {
+    font-weight: bold;
+    color: #d4a373;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.btn-buy {
+    background-color: #6b4e3d;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-buy:hover {
+    background-color: #4b2e2b;
+}
